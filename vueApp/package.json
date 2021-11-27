@@ -1,0 +1,21 @@
+{
+  "name": "vueapp",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:watch": "vue-tsc --noEmit && vite build --watch",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@ice/stark-app": "^1.4.2",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "less": "^4.1.2",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
